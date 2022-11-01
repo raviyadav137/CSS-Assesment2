@@ -1,5 +1,6 @@
 body{
     background-image: url("pexel.jpeg");
+    background-size: cover;
     border:9px rgb(133, 194, 42) groove;
     margin:0;
 }
