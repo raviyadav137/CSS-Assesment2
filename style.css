@@ -1,40 +1,50 @@
+body{
+    border:9px rgb(133, 194, 42) groove;
+    margin:0;
+}
+
 .flex-item{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     }
 .flex-item1{
-    border: 3px blue solid;
+    border: 5px rgb(228, 17, 17) solid;
     background-color: black;
     color:white;
-    margin: auto;
-    height: 90px;
+    margin-top:30px;
+    margin-left:30px; 
+    height: 120px;
     width:350px;
     border-radius: 20px;
     font-size: x-large;
     text-align: center;
     letter-spacing: 3px;
-    padding-top: 10px;
+    padding-top: 18px;
 }
 #nav{
     color: white;
     background-color: black;
-    border: 5px solid blue;
+    border: 5px solid rgb(228, 17, 17);
     border-radius: 20px;
-    padding: 15px;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 25px;
     width:400px;
     height:40px;
+    position: absolute;
+    left:330px;
+    top:28px;
 }
 #a{
     font-size: large;
     word-spacing: 40px;
 }
 .flex-item3{
-    border: 3px blue solid;
+    border: 5px rgb(228, 17, 17) solid;
     background-color: black;
     color:white;
     margin: auto;
+    margin-left: 500px;
     height: 100px;
     width:350px;
     border-radius: 20px;
@@ -48,7 +58,7 @@
     flex-wrap:wrap
 }
 .flex-item4{
-    border: 7px rgb(218, 25, 218) solid;
+    border: 7px rgb(228, 32, 32) solid;
     width: 365px;
     height: 317px;
     border-radius: 300px;
